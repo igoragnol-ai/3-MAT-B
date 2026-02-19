@@ -1,0 +1,21 @@
+<html>
+    <style>
+        h1{
+            color:blue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 70px;
+            text-align: center;
+        }
+        body{
+            background-color: lightblue;
+        }
+    </style>
+    <body>
+        <p>Meu primeiro site</p>
+        <h1>Titulo 1</h1>
+        <h2>Titulo 2</h2>
+        <h3>Titulo 3</h3>
+        <h4>Titulo 4</h4>
+        <h5>Titulo 5</h5>
+    </body>
+</html>
