@@ -1,21 +1,101 @@
 <html>
     <style>
-        h1{
-            color:blue;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 70px;
+        body{
+            background-color:rgba(63, 65, 63, 0.421);
+            background-image:url("https://fxopen.com/blog/en/content/images/2023/01/Copy-of-shutterstock_2044180823.jpg");
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        header{
+            background-color:black;
+            width:100%;
+            height:80px;
+            color:white;
             text-align: center;
         }
-        body{
-            background-color: lightblue;
+        #azul{
+            background-color:rgb(0, 128, 0);
+             width:50%;
+             height:80%;
+        }
+        #branco{
+            background-color:rgb(255, 255, 255);
+             width:50%;
+             height:80%;
+             background-image:url("https://s5.static.brasilescola.uol.com.br/be/2022/10/escudo-bandeira-mexico.jpg");
+            background-size:80%;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        #vermelho{
+            background-color:rgb(255, 0, 0);
+            width:50%;
+            height:80%;
+        }
+        section{
+            background-color: rgba(0, 0, 0, 0.725);
+            width:50%;
+            height:70%;
+            display:flex;
+            border:double 8px;
+            border-color:white;
+            border-radius: 10px;
+            align-items: center;
+            margin-left: 25%;
+        }
+        p{
+            font-size: 60px;
+        }
+        table,td,th{
+            background-color: rgba(27, 27, 27, 0.702);
+            border: solid;
+            font-size: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+            color: darkgrey;
+        }
+        table{
+            width: 100%;
         }
     </style>
+    <header>
+            <p>Meu primeiro site com div</p>
+    </header>
     <body>
-        <p>Meu primeiro site</p>
-        <h1>Titulo 1</h1>
-        <h2>Titulo 2</h2>
-        <h3>Titulo 3</h3>
-        <h4>Titulo 4</h4>
-        <h5>Titulo 5</h5>
+        <section>
+        <table>
+            <tr>
+                <th>TICKER</th>
+                <th>VALOR</th>
+                <th>DIVIDENDO</th>
+                <th>ANOS PAGANDO</th>
+            </tr>
+            <tr>
+                <td>O</td>
+                <td>0,00</td>
+                <td>0,70</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>VICI</td>
+                <td>0,00</td>
+                <td>0,70</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>SPG</td>
+                <td>0,00</td>
+                <td>0,70</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>SLG</td>
+                <td>0,00</td>
+                <td>0,70</td>
+                <td>20</td>
+            </tr>
+        </table>
+        </section>
     </body>
 </html>
